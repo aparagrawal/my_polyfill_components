@@ -9,6 +9,8 @@ Array.prototype.myReduce = function (cb, initialValue) {
 	return accumulator;
 };
 
+//Example
+
 const arr = [2, 3, 4, 5];
 
 const myResult = arr.reduce((acuu, curr) => {

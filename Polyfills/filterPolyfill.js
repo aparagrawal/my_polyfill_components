@@ -11,6 +11,8 @@ Array.prototype.myFilter = function (cb) {
 	return temp;
 };
 
+//Example
+
 const arr = [1, 2, 4, 6, 7];
 
 const myResult = arr.myFilter((item) => {

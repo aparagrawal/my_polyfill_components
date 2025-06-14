@@ -8,6 +8,8 @@ Array.prototype.myMap = function (cb) {
 	return temp;
 };
 
+//Example
+
 const arr = [2, 3, 4, 5, 6, 7, 8];
 
 const myResult = arr.myMap((item, index) => {
