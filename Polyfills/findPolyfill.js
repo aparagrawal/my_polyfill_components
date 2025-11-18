@@ -8,7 +8,6 @@ Array.prototype.myFind = function (callback) {
 	const arr = this;
 
 	for (let i = 0; i < arr.length; i++) {
-		console.log;
 		const result = callback(arr[i], i, arr);
 		if (result) {
 			return arr[i];

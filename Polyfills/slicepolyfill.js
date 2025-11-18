@@ -17,9 +17,6 @@ String.prototype.mySlice = function (start = 0, end = this.length) {
 //Example
 const word = "JavaScript";
 
-console.log(word.mySlice(0, 4));
-console.log(word.mySlice(-6, -3));
-
 // slice() polyfill with array
 
 Array.prototype.mySlicewithArray = function (start = 0, end = this.length) {
